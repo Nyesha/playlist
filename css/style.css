@@ -1,12 +1,17 @@
+body {
+    background-color: #BFDAE7;
+}
+
 h1 {
     text-align: center;
+    color: #0F2A6A;
 }
 
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 5px solid #336783;
+    border-bottom: 5px solid #336783;
 }
 
 .column {
@@ -53,6 +58,7 @@ h1 {
     width: 75%;
     margin: 0 auto 20px auto;
     font-size: 18px;
+    text-align: center;
 }
 
 input {
@@ -63,4 +69,6 @@ input {
 button {
     font-size: 14px;
     padding: 5px 10px;
+    background-color: transparent;
 }
+
