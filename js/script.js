@@ -84,7 +84,9 @@ var songName = $("#songName").val();
         songLengths.push(length);
     var link=$("#links").val();
         links.push(links);
-    var images = $
+    var images = $("#images").val;
+        images.push(images);
+        
     
 }
 
